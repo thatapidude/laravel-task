@@ -30,6 +30,14 @@ Route::get('/user-input', function(){
     return view('user-input.user-input');
 })->middleware('auth');
 
+Route::get('/task-one', function(){
+    return view('task-one.task-one');
+})->middleware('auth');
+
+Route::get('/task-two', function(){
+    return view('task-two.task-two');
+})->middleware('auth');
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
