@@ -19,6 +19,7 @@ Vue.component('task-composer', require('./components/TaskComposer.vue'));
 Vue.component('user-input', require('./components/UserInput.vue'));
 Vue.component('task-one', require('./components/TaskOne.vue'));
 Vue.component('task-two', require('./components/TaskTwo.vue'));
+Vue.component('task-three', require('./components/TaskThree.vue'));
 
 const app = new Vue({
     el: '#taskapp',

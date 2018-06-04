@@ -38,6 +38,10 @@ Route::get('/task-two', function(){
     return view('task-two.task-two');
 })->middleware('auth');
 
+Route::get('/task-three', function(){
+    return view('task-three.task-three');
+})->middleware('auth');
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
